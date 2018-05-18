@@ -1,6 +1,10 @@
-# flat-starterkit
+# scroll-animations
 
-Creates a simple one page website or landing page. The starterkit includes Sass and ES6 compilation, as well as Browsersync for a local server and hot-reloading.
+Makes adding scroll animations to your website even easier.
+
+## Purpose
+
+The idea behind this code is to quickly and easily add any scroll animations to your html elements. After working on large projects it became apparent that I shouldn't create a javascript or css animation for every element.  I found that using Greensock's GSAP libraries and ScrollMagic made a pretty nice combination.
 
 ## Installing / Getting started
 
@@ -18,14 +22,6 @@ The first command will install all the necessary dependencies for the project. T
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) - v7.6.0+
-
-### Setup
-
-```shell
-cd to/target/directory
-git clone https://github.com/skycatchfire/flat-starterkit.git .
-npm install
-```
 
 ### Running Local Server
 
