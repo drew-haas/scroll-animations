@@ -1,0 +1,29 @@
+// global page styling
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    padding: 2px 6px;
+    background-color: #dddd;
+    border-radius: 3px;
+}
+
+.spacer {
+    min-height: 500px;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.object {
+    background-color: #999;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}

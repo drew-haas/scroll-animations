@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>flat-starterkit</title>
+	<title>Scroll Animations Made Simple</title>
 	<meta name="description" content="">
 
 	<!-- Facebook / Open Graph -->
@@ -33,13 +33,38 @@
 
 	<link rel="canonical" href="">
 
-	<link rel="icon" type="image/x-icon" href="">
-	<link rel="icon" type="image/png" href="">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="icon" type="image/png" href="/favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="./dist/bundle.css">
 </head>
 <body>
-	<h1>Hello World</h1>
+	<div class="main-wrapper">
+		<div class="spacer">
+			<h1>scroll-animations</h1>
+			<p>Scroll down to see the animations.</p>
+		</div>
+		
+		<hr>
+		<h2>Usage</h2>
+		<p>Add the class <code>scroll-animation</code> to the div you want to create.</p>
+		<hr>
+
+		<div class="animation-wrapper">
+			<div class="row">
+				<div class="object scroll-animation" data-scroll-animation="fadeUp"></div>
+				<div class="object scroll-animation" data-scroll-animation="fadeDown"></div>
+				<div class="object scroll-animation" data-scroll-animation="fadeLeft"></div>
+				<div class="object scroll-animation" data-scroll-animation="fadeRight"></div>
+			</div>
+			<div class="row"></div>
+			<div class="row"></div>
+		</div>
+		
+		<div class="spacer">
+			<p>just a spacer</p>
+		</div>
+	</div>
 
 	<script async src="//www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
 	<script src="./dist/vendor.js"></script>

@@ -28,10 +28,18 @@ const config = {
 	scripts: {
 		source: [
 			'./src/scripts/google-analytics.js',
+			'./src/scripts/scroll-animations.js',
 			'./src/scripts/global.js'
 		],
 		modules: [
-		'node_modules/jquery/dist/jquery.js'
+			'node_modules/jquery/dist/jquery.js',
+			'./src/scripts/libs/ScrollMagic.min.js',
+			'./src/scripts/libs/TimelineMax.min.js',
+			'./src/scripts/libs/TweenMax.min.js',
+			'./src/scripts/libs/jquery.ScrollMagic.min.js',
+			'./src/scripts/libs/jquery.gsap.min.js',
+			'./src/scripts/libs/debug.addIndicators.min.js',
+			'./src/scripts/libs/animation.gsap.min.js'
 		],
 		destination: './dist'
 	},
